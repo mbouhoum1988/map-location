@@ -1,0 +1,50 @@
+.map{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.drivers-list{
+    position: absolute;
+    min-width: 300px;
+    min-height: 450px;
+    padding: 10px 20px;
+    top: 100px;
+    left: 50px;
+    background: #FFFAFA;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.driver-info{
+    color: blue;
+    list-style: none;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .drivers-list{
+        position: absolute;
+        min-width: 100px;
+        min-height: 200px;
+        padding: 10px 15px;
+        top: 80px;
+        left: 20px;
+        background: #FFFAFA;
+        opacity: 0.7;
+        border-radius: 10px;
+    }
+    .drivers-list h1 {
+        font-size: 20px;
+    }
+    .driver-info{
+        font-size: 16px;
+        list-style: none;
+        color: blue;
+        margin-left: 10px;
+        padding-bottom: 5px;
+        cursor: pointer;
+    }
+}
